@@ -16,8 +16,6 @@ def main():
 
     print(df)
     print("Средняя выручка:", df["Выручка"].mean())
-    profitability = calculate_profitability(150000, 100000)
-    print("Рентабельность:", profitability, "%")
 
 profitability = calculate_profitability(150000, 100000)
 print("Рентабельность:", profitability, "%")
